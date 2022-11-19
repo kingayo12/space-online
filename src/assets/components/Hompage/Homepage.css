@@ -1,0 +1,52 @@
+.main_content-display {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 25px;
+}
+
+.main_content-display .text_display {
+    padding: 20px 50px;
+    font-size: 40px;
+    flex: 1;
+}
+
+.main_content-display .text_display h1 {
+    color: var(--primary-color);
+    animation: 1000ms fade ease;
+}
+
+.main_content-display .img_container {
+    overflow: hidden;
+    width: 100%;
+    flex: 1.8;
+}
+
+.main_content-display .img_container img {
+    width: 100%;
+    animation: 1200ms zoomout ease;
+}
+
+@keyframes zoomout {
+    20% {
+        scale: 0.2;
+        opacity: 0.1;
+    }
+    80% {
+        scale: 1;
+        opacity: 0.6;
+    }
+}
+
+@keyframes fade {
+    20% {
+        opacity: .3;
+    }
+    50% {
+        opacity: .7;
+    }
+    80% {
+        transform: translateX(10px);
+    }
+}

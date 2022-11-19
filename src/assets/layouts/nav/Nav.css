@@ -1,0 +1,99 @@
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.nav_logo {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.nav_container .nav-content ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_container .nav-content ul li {
+    padding: 0 20px;
+    list-style: none;
+    color: var(--primary-color);
+}
+
+.nav_container .nav-content ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.container {
+    height: 40px;
+    box-shadow: 2px 3px 5px #ccc;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+}
+
+.nav_container .nav-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_container .nav-profile .profile_container {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.nav_container .nav-profile .profile_container img {
+    width: 28px;
+    padding-top: 10px;
+}
+
+.nav_container .nav-profile .icon-dis {
+    font-size: 25px;
+    color: var(--primary-color);
+    margin-left: 20px;
+}
+
+.nav_container .nav-profile .notification::after {
+    content: '3';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff0000;
+    top: 5px;
+    left: 91.7%;
+    font-size: 9px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.nav_container .nav-profile .settings::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00fd3b;
+    top: 5px;
+    left: 95.7%;
+    font-size: 9px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
