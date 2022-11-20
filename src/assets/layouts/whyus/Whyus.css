@@ -54,7 +54,10 @@
 
 .whyus-img .spin-img {
     transform-style: preserve-3d;
-    perspective: 400px;
+    perspective: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .whyus-img .spin-img img {
@@ -62,19 +65,30 @@
     transition: all 20s ease;
     transform: translate3d(42px, -62px, -135px);
     width: 100%;
-    image-rendering: pixelated;
     image-resolution: 4k;
-    image-orientation: from-image;
+    /* transform: rotateY(10deg); */
+}
+
+.whyus-img .spin-img img:hover {
+    cursor: grabbing;
+    image-resolution: 4k;
+    width: 150%;
+    animation: none;
+    /* transform: rotateY(10deg); */
 }
 
 @keyframes spin {
-    from {
+    20% {
         /* rotate: 0deg; */
         transform: rotateY(0deg);
     }
-    to {
-        /* rotate: 360deg; */
-        transform: rotateY(360deg);
+    50% {
+        /* rotate: 10deg; */
+        transform: rotateY(20deg);
+    }
+    80% {
+        /* rotate: 10deg; */
+        transform: rotateY(0deg);
     }
 }
 

@@ -5,6 +5,7 @@ import img2 from '../../images/slider-img/img2.png'
 import About from '../aboutpage/About'
 import Whyus from '../../layouts/whyus/Whyus'
 import Property from '../../reusables/property/Property'
+import Clientreview from '../../layouts/clientsreview/Clientreview'
 
 const Homepage = () => {
   return (
@@ -24,12 +25,16 @@ const Homepage = () => {
    </div>
    <About/>
    <Whyus/>
+   <div className="property-add">
    <Property/>
    <div className="btn-center">
-    <button className="btn-white">
+    <button className="btn btn-primary">
       Explore More
     </button>
+    </div>
+   
    </div>
+   <Clientreview/>
    </>
   )
 }

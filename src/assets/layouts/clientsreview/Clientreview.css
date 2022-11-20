@@ -1,0 +1,44 @@
+.client-review_container .text-cont {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.client-review_container .text-cont h1 {
+    font-weight: 800;
+}
+
+.client-review_container .text-cont h3 {
+    color: #000;
+}
+
+.client-review_container .container-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 2rem;
+    height: 550px;
+    width: 100%;
+    overflow-y: hidden;
+    /* flex-direction: row; */
+}
+
+.client-review_container .container-client .card_container {
+    background: linear-gradient(to bottom left, rgb(235, 235, 235) 10%, #fff 80%, rgb(230, 230, 230), rgb(247, 241, 241) 10%, #fff 80%, rgb(247, 241, 241));
+    width: 280px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 40px;
+    box-shadow: var(--box-shadow);
+    transition: all 500ms ease-in-out;
+}
+
+.client-review_container .container-client .card_container:hover,
+.client-review_container .container-client .card_container.active {
+    scale: 1.1;
+    background: linear-gradient(to top right, var(--primary-color), blue, var(--primary-color), var(--primary-color), blue, var(--primary-color));
+    color: #fff;
+}

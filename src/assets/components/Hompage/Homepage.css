@@ -3,11 +3,9 @@
     display: flex;
     align-items: left;
     justify-content: left;
-    padding-top: 25px;
 }
 
 .main_content-display .text_display {
-    padding: 20px 50px;
     font-size: 40px;
     flex: 1;
 }
