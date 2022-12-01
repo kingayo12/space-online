@@ -13,6 +13,9 @@
 .main_content-display .text_display h1 {
     color: var(--primary-color);
     animation: 1000ms fade ease;
+    background: linear-gradient(to top, #ff0000, var(--primary-color));
+    background-clip: text;
+    color: transparent;
 }
 
 .main_content-display .img_container {

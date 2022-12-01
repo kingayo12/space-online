@@ -2,12 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 40px;
+    height: 80px;
 }
 
 .nav_logo {
     color: var(--primary-color);
     cursor: pointer;
+    font-weight: 800;
+}
+
+.nav_logo h1 {
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
 }
 
 .nav_container .nav-content ul {
@@ -28,7 +34,7 @@
 }
 
 .container {
-    height: 40px;
+    height: 80px;
     box-shadow: 2px 3px 5px #ccc;
     position: fixed;
     width: 100%;
@@ -43,19 +49,25 @@
 }
 
 .nav_container .nav-profile .profile_container {
-    width: 28px;
-    height: 28px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     background: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 10px;
+    border: 2px solid #fff;
+}
+
+.nav_container .nav-profile .profile_container:hover,
+.nav_container .nav-profile .profile_container:focus {
+    border: 2px solid var(--primary-color);
 }
 
 .nav_container .nav-profile .profile_container img {
-    width: 28px;
-    padding-top: 10px;
+    width: 100%
 }
 
 .nav_container .nav-profile .icon-dis {
@@ -64,15 +76,17 @@
     margin-left: 20px;
 }
 
-.nav_container .nav-profile .notification::after {
+.nav_container .nav-profile .notification::before {
     content: '3';
     position: absolute;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background: #ff0000;
-    top: 5px;
-    left: 91.7%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff0000, var(--primary-color));
+    top: 22px;
+    left: 91.8%;
+    color: #fff;
+    border: 2px solid #fff;
     font-size: 9px;
     text-align: center;
     display: flex;
@@ -82,15 +96,17 @@
 }
 
 .nav_container .nav-profile .settings::after {
-    content: '';
+    content: '2';
     position: absolute;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    background: #00fd3b;
-    top: 5px;
-    left: 95.7%;
+    /* background: #00fd3b; */
+    background: linear-gradient(to right, #ff0000, var(--primary-color));
+    top: 22px;
+    left: 95.8%;
     font-size: 9px;
+    color: #fff;
     text-align: center;
     display: flex;
     align-items: center;

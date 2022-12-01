@@ -24,16 +24,28 @@
 }
 
 .client-review_container .container-client .card_container {
-    background: linear-gradient(to bottom left, rgb(235, 235, 235) 10%, #fff 80%, rgb(230, 230, 230), rgb(247, 241, 241) 10%, #fff 80%, rgb(247, 241, 241));
+    /* background: linear-gradient(to bottom left, rgb(235, 235, 235) 10%, #fff 80%, rgb(230, 230, 230), rgb(247, 241, 241) 10%, #fff 80%, rgb(247, 241, 241)); */
+    background: #fff;
     width: 280px;
     height: 450px;
     display: flex;
     justify-content: center;
+    color: var(--primary-color);
     align-items: center;
-    flex-direction: row;
+    gap: 1rem;
+    padding: 20px;
+    flex-direction: column;
     border-radius: 40px;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
     transition: all 500ms ease-in-out;
+    box-shadow: 2px 3px 20px #f1f1f1, -2px -3px 20px #f8f0f0;
+}
+
+.card_container h2 {
+    text-align: center;
+    word-wrap: break-word;
+    text-transform: lowercase;
+    text-rendering: optimizeSpeed;
 }
 
 .client-review_container .container-client .card_container:hover,
@@ -41,4 +53,56 @@
     scale: 1.1;
     background: linear-gradient(to top right, var(--primary-color), blue, var(--primary-color), var(--primary-color), blue, var(--primary-color));
     color: #fff;
+    box-shadow: 2px 3px 20px, -2px -3px 10px;
+    border: 2px solid gold;
+}
+
+.length-line {
+    width: 180px;
+    height: 10px;
+    background: var(--primary-color);
+}
+
+.client-review_container .container-client .card_container:hover .length-line {
+    background: linear-gradient( to right, gold, goldenrod);
+    border-radius: 10px;
+}
+
+.client-review_container .container-client .card_container:hover h2 {
+    /* border: 2px solid gold; */
+    border-radius: 10px;
+}
+
+.client-review_container .container-client .card_container:hover .profle-container_review,
+.client-review_container .container-client .card_container:focus .profle-container_review {
+    border: 2px solid gold;
+}
+
+.profle-container_review {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+}
+
+.profle-container_review img {
+    width: 100%;
+}
+
+.twolines {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name-space h3 {
+    text-decoration: wavy;
+    text-rendering: geometricPrecision;
+    text-overflow: ellipsis;
 }

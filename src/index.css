@@ -30,8 +30,9 @@
 .main_content-display {
     padding-left: 50px;
     padding-right: 20px;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 30px;
+    /* height: calc( 100vh - 80px); */
 }
 
 .about-container {
@@ -112,12 +113,22 @@
     font-weight: 800;
 }
 
+.capitalize {
+    text-transform: capitalize;
+}
+
 .text-small-2x {
     font-size: 20px;
     text-align: justify;
 }
 
 .gold {
+    /* background: linear-gradient(to right, gold, #5c5c00, gold, #5c5c00, gold); */
+    background-clip: unset;
+    color: gold;
+}
+
+.blue {
     /* background: linear-gradient(to right, gold, #5c5c00, gold, #5c5c00, gold); */
     background-clip: unset;
     color: var(--primary-color);

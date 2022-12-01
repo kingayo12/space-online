@@ -20,11 +20,11 @@ const Property = () => {
                 <div className="conotex">
                 <div className="text"><h3>ikeja alausa</h3></div>
                 <div className="stars">
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarOutlineSharpIcon className='gold'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarOutlineSharpIcon className='blue'/>
                 </div>
                 <div className="adress">
                     <address>no 52, alausa ikeja, off bamidele street, otsin road lagos</address>
@@ -42,11 +42,11 @@ const Property = () => {
                 <div className="conotex">
                 <div className="text"><h3>ikeja alausa</h3></div>
                 <div className="stars">
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarOutlineSharpIcon className='gold'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarOutlineSharpIcon className='blue'/>
                 </div>
                 <div className="adress">
                     <address>no 52, alausa ikeja, off bamidele street, otsin road lagos</address>
@@ -64,11 +64,11 @@ const Property = () => {
                 <div className="conotex">
                 <div className="text"><h3>ikeja alausa</h3></div>
                 <div className="stars">
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarOutlineSharpIcon className='gold'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarOutlineSharpIcon className='blue'/>
                 </div>
                 <div className="adress">
                     <address>no 52, alausa ikeja, off bamidele street, otsin road lagos</address>
@@ -86,11 +86,11 @@ const Property = () => {
                 <div className="conotex">
                 <div className="text"><h3>ikeja alausa</h3></div>
                 <div className="stars">
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarOutlineSharpIcon className='gold'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarOutlineSharpIcon className='blue'/>
                 </div>
                 <div className="adress">
                     <address>no 52, alausa ikeja, off bamidele street, otsin road lagos</address>
@@ -108,11 +108,11 @@ const Property = () => {
                 <div className="conotex">
                 <div className="text"><h3>ikeja alausa</h3></div>
                 <div className="stars">
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarOutlineSharpIcon className='gold'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarOutlineSharpIcon className='blue'/>
                 </div>
                 <div className="adress">
                     <address>no 52, alausa ikeja, off bamidele street, otsin road lagos</address>
@@ -130,11 +130,11 @@ const Property = () => {
                 <div className="conotex">
                 <div className="text"><h3>ikeja alausa</h3></div>
                 <div className="stars">
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarOutlineSharpIcon className='gold'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarOutlineSharpIcon className='blue'/>
                 </div>
                 <div className="adress">
                     <address>no 52, alausa ikeja, off bamidele street, otsin road lagos</address>
@@ -152,11 +152,11 @@ const Property = () => {
                 <div className="conotex">
                 <div className="text"><h3>ikeja alausa</h3></div>
                 <div className="stars">
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarOutlineSharpIcon className='gold'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarOutlineSharpIcon className='blue'/>
                 </div>
                 <div className="adress">
                     <address>no 52, alausa ikeja, off bamidele street, otsin road lagos</address>
@@ -174,11 +174,11 @@ const Property = () => {
                 <div className="conotex">
                 <div className="text"><h3>ikeja alausa</h3></div>
                 <div className="stars">
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarPurple500SharpIcon className='gold'/>
-                    <StarOutlineSharpIcon className='gold'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarPurple500SharpIcon className='blue'/>
+                    <StarOutlineSharpIcon className='blue'/>
                 </div>
                 <div className="adress">
                     <address>no 52, alausa ikeja, off bamidele street, otsin road lagos</address>
