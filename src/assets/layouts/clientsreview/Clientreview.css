@@ -3,6 +3,16 @@
     color: var(--primary-color);
 }
 
+.client-review_container {
+    background: url('../../images/property/property-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
 .client-review_container .text-cont h1 {
     font-weight: 800;
 }
@@ -15,16 +25,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
     gap: 2rem;
     height: 550px;
     width: 100%;
     overflow-y: hidden;
-    /* flex-direction: row; */
+    padding: 2rem;
 }
 
 .client-review_container .container-client .card_container {
-    /* background: linear-gradient(to bottom left, rgb(235, 235, 235) 10%, #fff 80%, rgb(230, 230, 230), rgb(247, 241, 241) 10%, #fff 80%, rgb(247, 241, 241)); */
     background: #fff;
     width: 280px;
     height: 450px;
@@ -36,9 +44,8 @@
     padding: 20px;
     flex-direction: column;
     border-radius: 40px;
-    /* box-shadow: var(--box-shadow); */
     transition: all 500ms ease-in-out;
-    box-shadow: 2px 3px 20px #f1f1f1, -2px -3px 20px #f8f0f0;
+    box-shadow: 2px 3px 2px #333232, -2px -3px 2px #f8f0f0;
 }
 
 .card_container h2 {
@@ -58,7 +65,7 @@
 }
 
 .length-line {
-    width: 180px;
+    width: 400PX;
     height: 10px;
     background: var(--primary-color);
 }

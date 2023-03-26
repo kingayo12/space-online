@@ -1,5 +1,14 @@
 .whyus-content {
     display: flex;
+    background: #fff;
+}
+
+.whyus-container {
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    padding-bottom: 50px;
+    background: url('../../images//blog/iop.png');
 }
 
 .whyus-content .content {
@@ -14,6 +23,16 @@
 .whyus-content .whyus-img {
     width: calc(100% - 40%);
     height: 450px;
+}
+
+.text-big-m {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.house-text h1 {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .whyus-content .content h1 {
@@ -105,27 +124,3 @@
     padding: 15px;
     border-radius: 50%;
 }
-
-
-/* .absolute {
-    position: absolute;
-    rotate: 90deg;
-    color: var(--primary-color);
-    animation: movemnet 2s infinite ease;
-}
-
-.moveX {
-    animation: movemnet 10s infinite ease;
-    width: 100%;
-    transform: translateY(-650px);
-} */
-
-
-/* @keyframes movemnet {
-     20% {
-        transform: translateY(-650px);
-    } 
-    50% {
-        transform: translateX(650px) rotateX(270deg);
-    }
-}  */

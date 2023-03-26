@@ -10,7 +10,7 @@ import RocketSharpIcon from '@mui/icons-material/RocketSharp';
 const Whyus = () => {
   return (
     <div className="whyus-container">
-        <div className="whyus-content">
+        <div className="whyus-content xyz">
             <div className="content">
                 <h1 className='text-big-m line'>Why space online <RocketLaunchIcon/></h1>
 

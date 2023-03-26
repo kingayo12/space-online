@@ -1,0 +1,12 @@
+{
+
+	"Print media": {
+		"scope": "css",
+		"prefix": "media",
+		"body": [
+			"@media screen and(max-width: 400px) {}",
+			"@media screen and(max-width: 800px) {}",
+		],
+		"description": "Log output to console"
+	}
+}
