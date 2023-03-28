@@ -2,6 +2,8 @@ import React from 'react';
 import './About.css';
 import About1 from '../../layouts/about-us-l/About';
 import Nav2 from '../../layouts/nav/Nav2';
+import Blog from '../../layouts/blog/Blog';
+import Clientreview from '../../layouts/clientsreview/Clientreview';
 
 
 // const getYear = () =>{
@@ -17,10 +19,10 @@ const About = () => {
         Home/About
       </small>
      </div>
-      <div className="about-container xyz">
         <Nav2/>
         <About1/>
-      </div>
+        <Blog/>
+        <Clientreview/>
     </>
   )
 }

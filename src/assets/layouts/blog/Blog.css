@@ -3,8 +3,8 @@
     height: 100vh;
     background: url('../../images/blog/iop.png');
     /* background: rgba(23, 0, 128, 0.034); */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
     display: grid;
     place-items: center;
 }
